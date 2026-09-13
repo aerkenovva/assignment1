@@ -1,0 +1,102 @@
+/* --- 1. ELEMENT SELECTORS --- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f0f7fa;
+    color: #1a252c;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+    color: #00afca;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+p {
+    font-size: 16px;
+    color: #334155;
+}
+
+/* --- 2. ID SELECTOR --- */
+#main-header {
+    background-color: #00afca;
+    padding: 20px;
+    border-bottom: 4px solid #fec107;
+    position: sticky;
+    top: 0;
+}
+
+/* --- 3. CLASS SELECTORS --- */
+.logo {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.logo span {
+    color: #fec107;
+}
+
+.content-box {
+    background-color: #ffffff;
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+    border: 1px solid #e2e8f0;
+    border-top: 4px solid #00afca;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 12px;
+    border-left: 6px solid #fec107;
+    border-top: 1px solid #e2e8f0;
+    border-right: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* Правильный единый блок для изображений */
+.destination-img, .location-img {
+    width: 100%;
+    max-width: 500px; /* Не дает картинке растягиваться больше ее качества */
+    height: auto; /* Сохраняет естественные пропорции */
+    display: block;
+    margin: 20px auto; /* Центрирует картинку по середине карточки */
+    border-radius: 12px;
+    border: 1px solid #cbd5e1;
+}
+/* --- 4. DESCENDANT SELECTOR --- */
+.nav-menu a {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    color: #fec107;
+}
+
+/* Footer */
+.main-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #00afca;
+    color: #ffffff;
+    font-size: 14px;
+    border-top: 4px solid #fec107;
+    margin-top: 40px;
+}
+
+.main-footer strong {
+    color: #fec107;
+}
